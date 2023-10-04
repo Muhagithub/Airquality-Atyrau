@@ -34,7 +34,7 @@ def index(request):
 
     return render(
         request,
-        "home_page.html",
+        "index.html",
         {
             "aqi_data": aqi,
             "pm25": pm25,
